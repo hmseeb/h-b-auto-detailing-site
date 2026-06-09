@@ -4,9 +4,9 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  --gold: #C9A84C;
-  --gold-light: #e0c06a;
-  --gold-dark: #a8852e;
+  --gold: #0163b4;
+  --gold-light: #1a80e0;
+  --gold-dark: #014d8e;
   --black: #0a0a0a;
   --dark: #111111;
   --dark-2: #1a1a1a;
@@ -28,7 +28,7 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,.2);
   --shadow-lg: 0 8px 40px rgba(0,0,0,.35);
-  --shadow-gold: 0 4px 20px rgba(201,168,76,.35);
+  --shadow-gold: 0 4px 20px rgba(1,99,180,.35);
 
   --transition: 0.25s ease;
   --header-h: 72px;
@@ -110,7 +110,7 @@ address { font-style: normal; }
 }
 .btn--gold:hover {
   background: var(--gold-light);
-  box-shadow: 0 6px 28px rgba(201,168,76,.5);
+  box-shadow: 0 6px 28px rgba(1,99,180,.5);
 }
 
 .btn--outline {
@@ -150,8 +150,8 @@ address { font-style: normal; }
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--gold);
-  background: rgba(201,168,76,.12);
-  border: 1px solid rgba(201,168,76,.3);
+  background: rgba(1,99,180,.12);
+  border: 1px solid rgba(1,99,180,.3);
   padding: 4px 14px;
   border-radius: 50px;
   margin-bottom: 16px;
@@ -318,8 +318,8 @@ address { font-style: normal; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--gold);
-  background: rgba(201,168,76,.12);
-  border: 1px solid rgba(201,168,76,.4);
+  background: rgba(1,99,180,.12);
+  border: 1px solid rgba(1,99,180,.4);
   padding: 6px 16px;
   border-radius: 50px;
   margin-bottom: 24px;
@@ -434,16 +434,16 @@ address { font-style: normal; }
 .service-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(201,168,76,.3);
+  border-color: rgba(1,99,180,.3);
 }
 
 .service-card--featured {
-  border-color: rgba(201,168,76,.4);
-  box-shadow: 0 0 0 1px rgba(201,168,76,.15), var(--shadow-md);
+  border-color: rgba(1,99,180,.4);
+  box-shadow: 0 0 0 1px rgba(1,99,180,.15), var(--shadow-md);
 }
 .service-card--featured:hover {
   border-color: var(--gold);
-  box-shadow: 0 0 0 1px rgba(201,168,76,.3), var(--shadow-gold), var(--shadow-lg);
+  box-shadow: 0 0 0 1px rgba(1,99,180,.3), var(--shadow-gold), var(--shadow-lg);
 }
 
 .service-card__badge {
@@ -571,8 +571,8 @@ address { font-style: normal; }
   transition: background var(--transition), border-color var(--transition), transform var(--transition);
 }
 .why-card:hover {
-  background: rgba(201,168,76,.07);
-  border-color: rgba(201,168,76,.3);
+  background: rgba(1,99,180,.07);
+  border-color: rgba(1,99,180,.3);
   transform: translateY(-4px);
 }
 
@@ -676,7 +676,7 @@ address { font-style: normal; }
   transition: border-color var(--transition), transform var(--transition);
 }
 .testimonial-card:hover {
-  border-color: rgba(201,168,76,.3);
+  border-color: rgba(1,99,180,.3);
   transform: translateY(-4px);
 }
 
@@ -803,8 +803,8 @@ address { font-style: normal; }
   flex-shrink: 0;
   width: 46px;
   height: 46px;
-  background: rgba(201,168,76,.1);
-  border: 1px solid rgba(201,168,76,.25);
+  background: rgba(1,99,180,.1);
+  border: 1px solid rgba(1,99,180,.25);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -878,14 +878,14 @@ a.contact__info-value:hover { color: var(--gold); }
 .form-input:focus {
   border-color: var(--gold);
   background: rgba(255,255,255,.07);
-  box-shadow: 0 0 0 3px rgba(201,168,76,.15);
+  box-shadow: 0 0 0 3px rgba(1,99,180,.15);
 }
 .form-input.error { border-color: #e85f5f; }
 
 .form-select {
   cursor: pointer;
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230163b4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 14px center;
   padding-right: 40px;
@@ -966,9 +966,9 @@ a.contact__info-value:hover { color: var(--gold); }
   transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 .footer__social:hover {
-  background: rgba(201,168,76,.15);
+  background: rgba(1,99,180,.15);
   color: var(--gold);
-  border-color: rgba(201,168,76,.4);
+  border-color: rgba(1,99,180,.4);
 }
 
 .footer__links-title {
